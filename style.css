@@ -1,0 +1,276 @@
+body{
+    
+    margin-left: 35px;
+}
+
+
+.minilogo{
+    height: 23px;
+}
+
+
+.cabeçalho{
+      
+    display: block; 
+}
+
+.menu{
+    list-style: none;
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.itens{
+    margin-top: 7px;
+    margin-left: 5px;
+}
+
+
+li{
+    float: left;
+    margin-right: 20px;
+    text-align: center;
+    font-size: 13px;
+    color: #383838;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.carrosel{
+    margin-left: 30px;
+}
+
+.cabeçalho2{
+    margin-right: px;   
+}
+
+.menu2{
+    float: right;
+    list-style: none;
+    display: block;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.itens2{
+    margin-top: 8px;
+    margin-left: 8px;
+    margin-right: 40px;
+}
+
+#v{
+    font-size: 8px;
+}
+
+.minilogo2{
+    margin-top: -5px;
+    margin-left: -16px;
+}
+
+.minilogo3{
+    margin-top: -6px;
+    margin-left: -15px;
+    margin-right: 40px;
+    
+}
+
+.links{
+    text-align: center;
+}
+
+.menu3{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+}
+
+.imgs{
+    text-align: center;
+
+}
+
+.select{
+    text-align: center;
+    margin-right: 78px;
+}
+
+.texto{
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    
+}
+
+input{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.botaologin{
+    width: 30px;
+    height: 30px;
+}
+
+#botaoenvia{
+    width: 100%;
+    padding: 5px;
+    background-color: #0067b8;
+    color: white;
+}
+
+#telalogin{
+    max-width: 300px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 15px;
+    display: none;
+}
+
+.search {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    padding: 1em 0;
+  }
+  
+  
+  .search .search-input,
+  .search .search-button {
+    border: 0;
+    padding: 1em;
+  }
+  
+  .search .search-input {
+    width: 100%;
+  }
+  
+  .search .search-button {
+    background-color: #2b75bb;
+    color: #fff;
+    cursor: pointer;
+  }
+
+@media screen and (max-width: 850px){
+
+    .minilogo{
+        height: 23px;
+        display: inline;
+    }
+
+
+    .cabeçalho{
+          display: inline-block;
+         
+    }
+
+
+    .response{
+        margin-left: 50%;
+        display: inline;
+    }
+
+    #responseLupa{
+        float: left;
+    }
+
+    .menu{
+        list-style: none;
+        
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 0px;
+        overflow: hidden;
+    }
+
+    .itens{
+        margin-top: 7px;
+        margin-left: 5px;
+        visibility: hidden;
+    }
+
+
+    li{
+        float: left;
+        margin-right: 20px;
+        text-align: center;
+        font-size: 13px;
+        color: #383838;
+        font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+    .carrosel{
+        margin-left: -15px;
+        width: 100%
+    }
+
+    .cabeçalho2{
+        margin-right: px;   
+    }
+
+    .menu2{
+        float: right;
+        list-style: none;
+        display: block;
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .itens2{
+        margin-top: 8px;
+        margin-left: 8px;
+        margin-right: 40px;
+        visibility: hidden;
+    }
+
+    #v{
+        font-size: 8px;
+    }
+
+    .minilogo2{
+        margin-top: -5px;
+        margin-left: -16px;
+    }
+
+    .minilogo3{
+        margin-top: -6px;
+        margin-left: -15px;
+        margin-right: 40px;
+        
+    }
+
+    .links{
+        width: 100%
+    }
+
+    .menu3{
+        list-style: none;
+        text-align: center;
+    }
+
+    .imgs{
+        text-align: center;
+
+    }
+
+    .select{
+        text-align: center;
+        margin-right: 78px;
+    }
+
+    .texto{
+        margin-top: 5px;
+        font-size: 15px;
+        font-weight: bold;
+        color: black;
+        
+    }
+
+
+}
