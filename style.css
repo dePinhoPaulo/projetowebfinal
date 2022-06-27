@@ -124,6 +124,13 @@ input{
     color: white;
 }
 
+#botaocadastro{
+    width: 100%;
+    padding: 5px;
+    background-color: #0067b8;
+    color: white;
+}
+
 #telalogin{
     max-width: 300px;
     margin: auto;

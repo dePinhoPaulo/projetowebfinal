@@ -6,10 +6,10 @@ let telacad = document.getElementById("telacadastro");
 
 
 function fnlogin(){
-    telalog.style.display='block';
-    telapri.style.display='none';
-    telabusca.style.display='none';
-    telacad.style.display='none';
+  telalog.style.display='block';
+  telapri.style.display='none';
+  telabusca.style.display='none';
+  telacad.style.display='none';
 }
 
 function cadastrar(){

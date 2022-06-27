@@ -7,8 +7,290 @@
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<link rel="shortcut icon" href="Imagens/microsoft-5.svg">
 		<title>Microsoft - Nuvem, aplicativos e jogos</title>
-		<style type="text/css">
-			@media screen and (max-width: 850px){}
+		<style>
+			body{
+    
+    margin-left: 35px;
+}
+
+
+.minilogo{
+    height: 23px;
+}
+
+
+.cabeçalho{
+      
+    display: block; 
+}
+
+.menu{
+    list-style: none;
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.itens{
+    margin-top: 7px;
+    margin-left: 5px;
+}
+
+
+li{
+    float: left;
+    margin-right: 20px;
+    text-align: center;
+    font-size: 13px;
+    color: #383838;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.carrosel{
+    margin-left: 30px;
+}
+
+.cabeçalho2{
+    margin-right: px;   
+}
+
+.menu2{
+    float: right;
+    list-style: none;
+    display: block;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.itens2{
+    margin-top: 8px;
+    margin-left: 8px;
+    margin-right: 40px;
+}
+
+#v{
+    font-size: 8px;
+}
+
+.minilogo2{
+    margin-top: -5px;
+    margin-left: -16px;
+}
+
+.minilogo3{
+    margin-top: -6px;
+    margin-left: -15px;
+    margin-right: 40px;
+    
+}
+
+.links{
+    text-align: center;
+}
+
+.menu3{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+}
+
+.imgs{
+    text-align: center;
+
+}
+
+.select{
+    text-align: center;
+    margin-right: 78px;
+}
+
+.texto{
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    
+}
+
+input{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.botaologin{
+    width: 30px;
+    height: 30px;
+}
+
+#botaoenvia{
+    width: 100%;
+    padding: 5px;
+    background-color: #0067b8;
+    color: white;
+}
+
+#botaocadastro{
+    width: 100%;
+    padding: 5px;
+    background-color: #0067b8;
+    color: white;
+}
+
+#telalogin{
+    max-width: 300px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 15px;
+    display: none;
+}
+
+.search {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    padding: 1em 0;
+  }
+  
+  
+  .search .search-input,
+  .search .search-button {
+    border: 0;
+    padding: 1em;
+  }
+  
+  .search .search-input {
+    width: 100%;
+  }
+  
+  .search .search-button {
+    background-color: #2b75bb;
+    color: #fff;
+    cursor: pointer;
+  }
+
+@media screen and (max-width: 850px){
+
+    .minilogo{
+        height: 23px;
+        display: inline;
+    }
+
+
+    .cabeçalho{
+          display: inline-block;
+         
+    }
+
+
+    .response{
+        margin-left: 50%;
+        display: inline;
+    }
+
+    #responseLupa{
+        float: left;
+    }
+
+    .menu{
+        list-style: none;
+        
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 0px;
+        overflow: hidden;
+    }
+
+    .itens{
+        margin-top: 7px;
+        margin-left: 5px;
+        visibility: hidden;
+    }
+
+
+    li{
+        float: left;
+        margin-right: 20px;
+        text-align: center;
+        font-size: 13px;
+        color: #383838;
+        font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+    .carrosel{
+        margin-left: -15px;
+        width: 100%
+    }
+
+    .cabeçalho2{
+        margin-right: px;   
+    }
+
+    .menu2{
+        float: right;
+        list-style: none;
+        display: block;
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .itens2{
+        margin-top: 8px;
+        margin-left: 8px;
+        margin-right: 40px;
+        visibility: hidden;
+    }
+
+    #v{
+        font-size: 8px;
+    }
+
+    .minilogo2{
+        margin-top: -5px;
+        margin-left: -16px;
+    }
+
+    .minilogo3{
+        margin-top: -6px;
+        margin-left: -15px;
+        margin-right: 40px;
+        
+    }
+
+    .links{
+        width: 100%
+    }
+
+    .menu3{
+        list-style: none;
+        text-align: center;
+    }
+
+    .imgs{
+        text-align: center;
+
+    }
+
+    .select{
+        text-align: center;
+        margin-right: 78px;
+    }
+
+    .texto{
+        margin-top: 5px;
+        font-size: 15px;
+        font-weight: bold;
+        color: black;
+        
+    }
+
+
+}
 		</style>
 	</head>
 		<body>
@@ -86,6 +368,7 @@
 					<input id="email" name="email" type="email" placeholder="E-mail">
 					<input id="password" name="password" type="password" placeholder="Senha">
 					<button id="botaoenvia" onclick="enviar()">Enviar</button>
+                    <button id="botaocadastro" onclick="cadastrar()">Cadastrar-se</button>
 					
 				</div>
 	
@@ -95,70 +378,151 @@
 	
 			</div>
 
-			<div id="busca">
-				<div class="site">
-					<div class="container">
-
-						<div class="cabecalho">
-							<ul class="menu">
-								<li class="response"><img class="minilogo" src="Imagens/microsoft.svg"></li>
-								<li class="itens">Microsoft 365</li>
-								<li class="itens">Office</li>
-								<li class="itens">Windows</li> 
-								<li class="itens">Xbox</li>
-								<li class="itens">Suporte</li>
-							</ul>
-						</div>
-
-						<div class="cabecalho2">
-							<ul class="menu2">
-								<li class="itens2">Toda a Microsoft <span id="v"> &#5167;</span></li>
-								<li id="responseLupa"><img class="minilogo2" src="Imagens/lupa.png"></li>
-								<li><img class="minilogo2" src="Imagens/carrinho.png"></li>
-								<li><button class="botaologin" onclick="fnlogin()"><img class="minilogo3" src="Imagens/conta.png"></button></li>
-							</ul>
-						</div>
-						
-
-					</div>
-
-					<main class="container">
-						<img src="https://upload.wikimedia.org/wikipedia/commons/9/98/International_Pok%C3%A9mon_logo.svg" alt="Pokemon Logo">
-					
-						<form action="" class="search">
-						  <input type="search" class="search-input" placeholder="Search about a pokemon using name or pokedex number">
-						  <button class="search-button">Search</button>
-						</form>
-					
-						<section class="pokemon">
-						</section>
-						<span class="error">Not Found!</span>
-					</main>
-
-					<section class="destasques">
-
-					<img class="carrosel" src="Imagens/carrosel.png">
-
-					</section>
-
-					<br><br><br>
-
-					<div class="links">
-
-					<ul class="menu3">
-						<li class="select"><img class="imgs" src="Imagens/windows.png"><div class="texto">Escolha seu <br> Microsoft 365</div></li>
-						<li class="select"><img class="imgs" src="Imagens/xbox.jpg"><div class="texto">Comprar o Xbox</div></li>
-						<li class="select"><img class="imgs" src="Imagens/windows.png"><div class="texto">Adiquira o <br> Windows 11</div></li>
-									
-					</ul>
-
-					</div>
-				
-				</div>
-			</div>
+            <div id="telacadastro">
+                <img class="minilogo" src="Imagens/microsoft.svg">
+                <h1>cadastro</h1>
+                <input id="nome" name="text" type="text" placeholder="Nome">
+                <input id="email" name="email" type="email" placeholder="E-mail">
+                <input id="password" name="password" type="password" placeholder="Senha">
+                <button id="botaoenvia" onclick="enviar()">Enviar</button>
+                
+            </div>
 
 
 		</body>
 
-		<script src="script.js"></script>
+		<script>
+            let botao = document.getElementById("botaologin");
+            let telalog = document.getElementById("telalogin");
+            let telapri = document.getElementById("header");
+            let telabusca = document.getElementById("busca");
+            let telacad = document.getElementById("telacadastro");
+
+
+            function fnlogin(){
+            telalog.style.display='block';
+            telapri.style.display='none';
+            telabusca.style.display='none';
+            telacad.style.display='none';
+            }
+
+            function cadastrar(){
+            telalog.style.display='none';
+            telapri.style.display='none';
+            telabusca.style.display='none';
+            telacad.style.display='block';
+            }
+
+            let inpmail = document.getElementById("email");
+            let insenha = document.getElementById("password");
+
+            let resultado = document.getElementById("resultado");
+
+            let token = localStorage.getItem("token");
+            
+            if(token){
+                telalog.style.display='none';
+                telapri.style.display='none';
+                telabusca.style.display='block';
+                telacad.style.display='none';
+            }
+
+            ////
+
+            ///
+
+            function enviar(){
+            
+                let email = inpmail.value;
+                let senha = insenha.value;
+
+                telalog.style.display='none';
+                telapri.style.display='block'; 
+                telacad.style.display='none';
+
+                console.log(JSON.stringify({
+                email: inpmail.value,
+                password: insenha.value,
+                }));
+
+                fetch("https://reqres.in/api/login", {
+                method: "POST",
+                headers: {
+                    Accept: "application/json, text/plain, /",
+                    "Content-Type": "application/json",
+                },
+                        body: JSON.stringify({
+                        email: inpmail.value,
+                        password: insenha.value,
+                    })
+                })
+
+                .then(function(respostadoserver){
+                    return respostadoserver.json()
+                })
+
+                .then(function(respostaconvertida){
+                    localStorage.setItem("token",respostaconvertida.token)
+                    console.log(respostaconvertida)
+                })
+
+            }
+
+            ////////////
+
+            const baseUrl = 'https://pokeapi.co/api/v2/pokemon/';
+
+            const searchInput = getElement('.search-input'),
+                searchButton = getElement('.search-button'),
+                container = getElement('.pokemon'),
+                erroMessage = getElement('.error');
+
+            var pokeName,
+                pokemon,
+                card;
+
+
+            function getElement(element) {
+            return document.querySelector(element);
+            }
+
+            function requestPokeInfo(url, name) {
+            fetch(url + name)
+                .then(response => response.json())
+                .then(data => {
+                pokemon = data;
+                })
+                .catch(err => console.log(err));
+            }
+
+            function createCard () {
+            card = `
+                <div class="pokemon-picture">
+                <img src="${pokemon.sprites.front_default}" alt="Sprite of ${pokemon.name}">
+                </div>
+                <div class="pokemon-info">
+                    <h1 class="name">Name: ${pokemon.name}</h1>
+                    <h2 class="number">Nº ${pokemon.id}</h2>
+                    <h3 class="type">Type: ${pokemon.types.map(item => item.type.name).toString()}</h3>
+                    <h3 class="skill">Skills: ${pokemon.moves.map(item => ' ' + item.move.name).toString()}</h3>
+                    <h3 class="weight">Weight: ${pokemon.weight  / 10}kg</h3>
+                    <h3 class="height">Height: ${pokemon.height  / 10}m</h3>
+                </div>`;
+            return card;
+            }
+
+            function startApp(pokeName) {
+            requestPokeInfo(baseUrl, pokeName);
+
+            setTimeout(function () {
+                container.innerHTML = createCard();
+            }, 2000);
+            }
+
+            searchButton.addEventListener('click', event => {
+            event.preventDefault();
+            pokeName = searchInput.value.toLowerCase();
+            startApp(pokeName);
+            });
+        </script>
 </html>
