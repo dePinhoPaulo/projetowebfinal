@@ -1,27 +1,6 @@
-const dotenv = require('dotenv');
-dotenv.config();
+const mongoose = require('mongoose');
 
-const MONGO_CNSTRING = process.env.MONGO_CNSTRING;
+const url_prod ="mongodb+srv://depinhopaulo:91484742@cluster0.emtav.mongodb.net/?retryWrites=true&w=majority"
 
-const MONGO_CNSTRING = require('mongodb');
-
-
-// Database Name
-const dbName = 'projetowebfinal';
-
-async function main() {
-  // Use connect method to connect to the server
-  await client.connect();
-  console.log('Connected successfully to server');
-  const db = client.db(dbName);
-  const collection = db.collection('documents');
-
-  // the following code examples can be pasted here...
-
-  return 'done.';
-}
-
-main()
-  .then(console.log)
-  .catch(console.error)
-  .finally(() => client.close());
+mongoose.connect(url_prod, { useNewUrlParser: true, useUnifiedTopology: true });
+module.exports = mongoose;

@@ -1,0 +1,1 @@
+const MONGO_URI = 'mongodb+srv://depinhopaulo:91484742@cluster0.emtav.mongodb.net/?retryWrites=true&w=majority' | process.env.MONGO_URI
